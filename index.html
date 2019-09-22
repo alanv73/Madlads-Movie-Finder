@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container mt-3 text-center">
+    <div class="container mt-3">
         <!-- <h1 class="display-3">MadLads Movie Finder</h1>
         <h3 class="display-4">
             In Theaters Now
@@ -35,11 +35,27 @@
             <label for="genre">Genre</label>
             <select name="genre" id="genre">
                 <option value="0">-select genre-</option>
-            </select><button id="genreFind">find</button>
+            </select>
+            <label for="genre">Rating</label>
+            <select name="rating" id="rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <button id="genreFind">find</button>
         </div>
         <div class="movies">
         </div>
-        <sub>*MadLads Movie Finder uses the TMDb API but is not endorsed or certified by TMDb.</sub>
+        <div class="footer">
+            <sub>*MadLads Movie Finder uses the TMDb API but is not endorsed or certified by TMDb.</sub>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <script src="index.js"></script>
