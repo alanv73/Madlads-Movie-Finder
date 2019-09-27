@@ -56,6 +56,13 @@ function fetchMovies(url) {
 				// duplicate the card that's already on the page
 				let movieCard = document.querySelector('.card.mb-3');
 				let newCard = movieCard.cloneNode(true);
+				let options = {
+					weekday : 'long',
+					year    : 'numeric',
+					month   : 'short',
+					day     : 'numeric'
+				};
+
 				// location of the movie poster
 				let posterPath = posterBasePath + movie.poster_path;
 
@@ -63,8 +70,15 @@ function fetchMovies(url) {
 				newCard.querySelector('h5').innerText = movie.title;
 				newCard.querySelector('p').innerText = movie.overview;
 				newCard.querySelector('small').innerText =
+					'Released: ' +
+					new Date(movie.release_date).toLocaleDateString(
+						'en-us',
+						options
+					);
+				newCard.querySelector('small').innerText +=
+					'  - user rating: ' +
 					parseFloat(movie.vote_average) * 10 +
-					'% user rating';
+					'%';
 
 				// if the movie poster is blank use a placeholder
 				if (!movie.poster_path) {
