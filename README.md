@@ -3,11 +3,11 @@
 <em>Agile increment</em>
 
     Javascript movie api project
+    API: The Movie Database API
+    https://developers.themoviedb.org/3/getting-started/introduction
 
 ![Madlads Movie Finder](https://alanv73.github.io/img/madladmovie.png)
 
-API: The Movie Database API
-https://developers.themoviedb.org/3/getting-started/introduction
 
 # PHP Movie Showtime Scraper
 ![Madlads Showtime Scraper](https://alanv73.github.io/img/scraper.png)
