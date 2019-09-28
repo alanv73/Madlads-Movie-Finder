@@ -9,7 +9,7 @@
 API: The Movie Database API
 https://developers.themoviedb.org/3/getting-started/introduction
 
-PHP Movie Showtime Scraper
+# PHP Movie Showtime Scraper
 ![Madlads Showtime Scraper](https://alanv73.github.io/img/scraper.png)
 
 library: https://sourceforge.net/projects/simplehtmldom/
