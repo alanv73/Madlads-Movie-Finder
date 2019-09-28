@@ -12,5 +12,5 @@ https://developers.themoviedb.org/3/getting-started/introduction
 # PHP Movie Showtime Scraper
 ![Madlads Showtime Scraper](https://alanv73.github.io/img/scraper.png)
 
-    <p>library: https://sourceforge.net/projects/simplehtmldom/</p>
-    <p>Showtime data: https://www.imdb.com/showtimes/US/16803?ref_=sh_dt</p>
+    library: https://sourceforge.net/projects/simplehtmldom/
+    Showtime data: https://www.imdb.com/showtimes/US/16803?ref_=sh_dt
