@@ -1,4 +1,4 @@
-# Madlads Movie Finder
+# <a href="https://alanv73.github.io/MadLads/">Madlads Movie Finder</a>
 <h3>IT231 Software Engineering</h3>
 <em>Agile increment</em>
 
